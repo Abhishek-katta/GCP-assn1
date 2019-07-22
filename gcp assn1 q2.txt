@@ -1,0 +1,13 @@
+gcloud config configurations create abhi-config
+
+gcloud config list(#shows all the available configurations)
+
+gcloud config configurations activate abhi-config(#activates the abhi-config)
+
+gcloud set project abhi-project(#creates a new project named abhi-project and assigns it to the abhi-config)
+
+gcloud set account katta.abhishek.77@gmail.com (#link the config account to the given account)
+
+
+to switch between two accounts
+gcloud config configurations activate "give whichever config u need to access"

@@ -1,0 +1,16 @@
+Create a bucket-- gsutil mb -l gs://abhi-bucketq5/
+
+copy
+gsutil cp Desktop/kitten.png gs://abhi-bucketq5
+
+Upload
+gsutil cp Desktop/kitten.png gs://abhi-bucketq5
+
+move
+gsutil mv gs://abhi-bucketq5/kitten.png gs://abhi-bucketq5/folder/kitten2.png
+
+download
+gsutil cp gs://abhi-bucketq5/kitten.png Desktop/kitten.png
+
+Delete
+gsutil rm gs://abhi-bucketq5/kitten.png

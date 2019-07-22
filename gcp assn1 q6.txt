@@ -1,0 +1,4 @@
+Create a Vpc abhi-vpc abd select the automatic subnet creation
+
+Add a firewall rule to the above vpc in which the ip ranges are the quantiphi's IP Ranges and
+in the Protocols select tcp and add port:22 which is the port of the SSH.

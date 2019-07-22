@@ -1,0 +1,3 @@
+Create an Instance.. ive created instance-abhiq4
+
+Create a service account and set the policy as only viewer.. ive created Service account as abhiq4read

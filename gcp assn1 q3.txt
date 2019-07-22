@@ -1,0 +1,3 @@
+gcloud services list --available(#gives the list of all the api's available which and enabled and not-enabled)
+
+gcloud services list (#gives the list of only the enabled api's)

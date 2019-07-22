@@ -1,0 +1,11 @@
+Goto the StackDriver and Select the Logging Option.
+
+Select Exports and Choose GCE Firewall Riles
+
+Click Create Export and Provide Sink Name.
+
+Select the Sink Service As BigQuery
+
+Create a BigQuery DataSet
+
+ Provide sink destination as the big query dataset u Created in the Above Step.

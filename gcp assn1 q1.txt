@@ -1,0 +1,5 @@
+1. INstall gcloud SDK From gcloud SDK Installer for Windows
+2. gcloud components list(#lists out all the components and shows whether they are installed or not)
+3. gcloud components install kubectl
+4. gcloud components install alpha
+5. gcloud components install beta

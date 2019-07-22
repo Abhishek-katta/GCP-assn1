@@ -1,0 +1,11 @@
+Create a GCE VM Instance.
+
+Install Apache Server in it.
+sudo apt-get install apache2
+echo "<h1>$HOSTNAME</h1>" > /var/www/html/index.html
+
+Now go to StackDriver and Create an Uptime Check abhi-check
+
+Select the Uptime Check and Create an Alerting Policy abhi-policy and which triggers when the Health Check is Failed.
+
+in the Alerting policy Notification Add your e-mail Address So that A mail Will Be Sent to you Each time a Health Check Fails.

@@ -1,0 +1,7 @@
+1.Create an Instance and Install Apache Server----- gcloud compute instances create abhiinstanceq8
+
+2.Create an AutoScaling Template------ gcloud compute instance-templates create abhiautoscaletemplate --source-instance=abhiinstanceq8 --source-instance-zone=us-east1-b
+
+3.Create Auto Scaling Groups---- gcloud compute instance-groups managed create abhiautoscalegp --zone=us-east1-c --template=abhihautoscaletemplate --size=2
+
+4.Install Stress -------sudo apt-get install stress
